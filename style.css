@@ -1,0 +1,43 @@
+body{
+  background-image: url('./2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.main{
+    transform: translate(10%,50%);
+}
+
+.a{
+    background-color: darkslateblue;
+    border: transparent;
+}
+
+button:hover{
+    background-color: cornflowerblue !important;
+    box-shadow:  0 0 10px 10px rgb(11, 48, 97);
+    border: transparent;
+
+
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    font-weight: 700;
+  
+}
+.b{
+    font-size: 42px !important;
+    color: white;
+    background-color: skyblue;
+    border-radius: 100%;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    text-shadow: 2px 2px 8px white;
+    color:rgb(12, 68, 102) !important;
+    font-size: 43px !important;
+    font-weight:bolder;
+    font-style: italic;
+}
+
